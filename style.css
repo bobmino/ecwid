@@ -62,7 +62,7 @@ nav button{
     justify-content: space-evenly;
     text-align: center;
 }
-.container{
+.containerOrange{
     display: flex;
     flex-direction: column;
     width: 800px;
@@ -93,12 +93,12 @@ nav button{
     margin: 20px 40px;
     width: 460px;
 }
-.container h2{
+.containerOrange h2{
     margin:0px 0px 0px 40px;
     font-size: 40px;
     padding: 0px;
 }
-.container button{
+.containerOrange button{
     height: 40px;
     width: 200px;
     border-radius: 20px;
