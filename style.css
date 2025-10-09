@@ -93,7 +93,7 @@ nav button{
     right: 120px;
     top: 90px;
 }
-.jackson{
+.pamela, .jackson{
     height: 40px;
     width: 40px;
     border-radius: 40px;
@@ -110,15 +110,15 @@ nav button{
 }
 .greenFooter{
     display: flex;
-    flex-direction: column;
     border: 1px solid black;
     border-radius: 50px;
     height: 160px;
     padding: 50px 30px 10px 30px;
-    width: 1000px;
+    width: 900px;
     background-color: #42f7be;
+    justify-content: space-evenly;
 }
-.yellowFooter p{
+.greenFooter p, .yellowFooter p{
     height: 100px;
     width: 500px;
 }
@@ -177,9 +177,20 @@ nav button{
     justify-content: center;
     align-items: center;
 }
+.authorGreen{
+    display: flex;
+    gap: 20px;
+}
 .iconTrust{
     height: 20px;
     width: 70px;
+}
+.iconTrustreverse{
+    flex: 2;
+    display: flex;
+    gap: 20px;
+    align-items: flex-end;
+    height: 140px;
 }
 .bloc{
     display: flex;
@@ -187,4 +198,10 @@ nav button{
     align-items: center;
     height: auto;
     width: 900px;
+}
+.blocGreenfooter{
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
 }
