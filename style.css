@@ -62,19 +62,43 @@ nav button{
     justify-content: space-evenly;
     text-align: center;
 }
-.containerOrange{
+.containerOrange, .containerGreen{
     display: flex;
     flex-direction: column;
     width: 800px;
     margin: 100px;
     padding: 0px 0px 0px 100px;
 }
+.fixContent {
+    padding-left: 100px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+}
+.fixContent h2{
+    text-align:right;
+}
+.fixContent button{
+    height: 40px;
+    width: 200px;
+    border-radius: 20px;
+    border:1px solid black;
+    background-color: #45f5bb;
+    margin: 20px 0px 40px 290px;
+}
+
+
+.imgGreen{
+    position: absolute;
+    right: 120px;
+    top: 90px;
+}
 .jackson{
     height: 40px;
     width: 40px;
     border-radius: 40px;
 }
-.blocFooter{
+.yellowFooter{
     display: flex;
     flex-direction: column;
     border: 2px solid black;
@@ -83,9 +107,18 @@ nav button{
     padding: 10px 30px;
     width: 1000px;
     background-color: #ffc497;
-
 }
-.blocFooter p{
+.greenFooter{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 50px;
+    height: 160px;
+    padding: 50px 30px 10px 30px;
+    width: 1000px;
+    background-color: #42f7be;
+}
+.yellowFooter p{
     height: 100px;
     width: 500px;
 }
@@ -93,7 +126,12 @@ nav button{
     margin: 20px 40px;
     width: 460px;
 }
-.containerOrange h2{
+.bloc2{
+    padding-left: 280px;
+    margin: 20px 0px;
+    width: 500px;
+}
+.containerOrange h2, .containerGreen h2{
     margin:0px 0px 0px 40px;
     font-size: 40px;
     padding: 0px;
@@ -106,7 +144,8 @@ nav button{
     background-color: #ffc497;
     margin: 20px 0px 40px 40px;
 }
-.fb, .insta{
+
+.googleAds, .fbAds, .fb, .insta{
     display: flex;
     flex-direction: column;
     width: 230px;
@@ -115,6 +154,16 @@ nav button{
 }
 .sellContent{
     display: flex;
+    position: relative;
+}
+.growContent{
+        display: flex;
+        justify-content:right;
+        margin-left: 40px;
+        width: 840px;
+}
+.blocGreen{
+    width: 500px;
     position: relative;
 }
 .blocImage{
