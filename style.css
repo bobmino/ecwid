@@ -62,7 +62,7 @@ nav button{
     justify-content: space-evenly;
     text-align: center;
 }
-.containerOrange, .containerGreen{
+.containerBlue, .containerOrange, .containerGreen{
     display: flex;
     flex-direction: column;
     width: 800px;
@@ -93,7 +93,7 @@ nav button{
     right: 120px;
     top: 90px;
 }
-.pamela, .jackson{
+.scott, .pamela, .jackson{
     height: 40px;
     width: 40px;
     border-radius: 40px;
@@ -108,6 +108,16 @@ nav button{
     width: 1000px;
     background-color: #ffc497;
 }
+.blueFooter{
+        display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    border-radius: 50px;
+    height: 160px;
+    padding: 10px 30px;
+    width: 1000px;
+    background-color: #316ffb;
+}
 .greenFooter{
     display: flex;
     border: 1px solid black;
@@ -118,7 +128,7 @@ nav button{
     background-color: #42f7be;
     justify-content: space-evenly;
 }
-.greenFooter p, .yellowFooter p{
+.blueFooter p, .greenFooter p, .yellowFooter p{
     height: 100px;
     width: 500px;
 }
@@ -131,7 +141,7 @@ nav button{
     margin: 20px 0px;
     width: 500px;
 }
-.containerOrange h2, .containerGreen h2{
+.containerBlue h2, .containerOrange h2, .containerGreen h2{
     margin:0px 0px 0px 40px;
     font-size: 40px;
     padding: 0px;
@@ -144,7 +154,14 @@ nav button{
     background-color: #ffc497;
     margin: 20px 0px 40px 40px;
 }
-
+.containerBlue button{
+    height: 40px;
+    width: 200px;
+    border-radius: 20px;
+    border:1px solid black;
+    background-color: #316ffb;
+    margin: 20px 0px 40px 40px;
+}
 .googleAds, .fbAds, .fb, .insta{
     display: flex;
     flex-direction: column;
@@ -170,6 +187,11 @@ nav button{
     position: absolute;
     left: 689px;
     bottom: -39px;
+}
+.blocImageblue{
+    position: absolute;
+    left: 636px;
+    bottom: -80px;
 }
 .author, .iconTrust{
     display: flex;
