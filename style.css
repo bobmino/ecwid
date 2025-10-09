@@ -59,4 +59,5 @@ nav button{
 .trustCaroussel{
     display: flex;
     justify-content: space-evenly;
+    text-align: center;
 }
