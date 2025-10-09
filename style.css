@@ -1,13 +1,15 @@
 body{
     margin: 20px;
-    padding: 20px;
     justify-content: center;
     align-items: center;
+}
+header{
+    height: 100vh;
 }
 nav{
     display: flex;
     justify-content: space-between;
-    padding: 20px 40px;
+    padding: 0px 40px;
 }
 nav a{
     text-decoration: none;
@@ -28,5 +30,29 @@ nav button{
 .firstPart, .secondPart{
     display: flex;
     gap: 40px;
-
+}
+.headerBloc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 5em;
+}
+.headerBloc h1{
+    font-size: 56px;
+    margin: 0;
+}
+.headerBloc button{
+    height: 50px;
+    width: 300px;
+    border-radius: 15px;
+    background-color: #00a96d;
+    color: white;
+}
+.petit{
+    width: 480px;
+    padding: 10px;
+}
+.noCredit{
+    font-size: smaller;
 }
