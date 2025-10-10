@@ -227,3 +227,26 @@ nav button{
     flex-direction: column;
     text-align: left;
 }
+.sellAround{
+    border: 2px solid black;
+    display: flex;
+    width: 1050px;
+    height: 300px;
+    border-radius: 30px;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 100px 200px;
+}
+.sellBloc{
+flex: 2;
+padding: 150px;
+}
+.statBloc{
+    flex: 3;
+    display: flex;
+    justify-content: space-evenly;
+}
+.statBloc h1{
+    font-size: 80px;
+    font-weight:600
+}
