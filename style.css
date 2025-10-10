@@ -281,3 +281,33 @@ nav button{
     width: 220px;
     height: 80px;
 }
+.getStarted{
+    border: 2px solid black;
+    height: 200px;
+    width: 1000px;
+    display: flex;
+    margin: 0px 200px;
+    border-radius: 30px;
+    gap: 40px;
+    align-items: center;
+    justify-content: space-around;
+    padding: 40px;
+}
+.lastBloc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 2;
+}
+.getStarted h1{
+    font-size: 48px;
+    flex: 3;
+}
+.lastBloc button{
+    height: 50px;
+    width: 300px;
+    border-radius: 15px;
+    background-color: #ffde53;
+    color: black;
+}
